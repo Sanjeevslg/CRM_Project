@@ -32,12 +32,12 @@ class Database extends Config
 	 */
 	public $default = [
 		'DSN'      => '',
-		'hostname' => 'enter_hostname',
-		'username' => 'enter_db_username',
-		'password' => 'enter_db_password',
-		'database' => 'enter_database_name',
+		'hostname' => 'localhost',
+		'username' => 'root',
+		'password' => 'password',
+		'database' => 'digitwings',
 		'DBDriver' => 'MySQLi',
-		'DBPrefix' => 'enter_dbprefix',
+		'DBPrefix' => 'digitwings_',
 		'pConnect' => false,
 		'DBDebug'  => (ENVIRONMENT !== 'production'),
 		'charset'  => 'utf8',
